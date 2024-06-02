@@ -1,6 +1,6 @@
 def Login(inputUser, inputPassword):
   correctUser = "pdrzinho" 
-  correctPassword = "cuzao"
+  correctPassword = "senha"
   if correctUser == inputUser and correctPassword == inputPassword:
     print("Bem vindo, ", correctUser)
   elif correctPassword != inputPassword and correctUser != inputUser :
